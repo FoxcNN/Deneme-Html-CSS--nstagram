@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    padding: 35px;
+    gap: 5px;
+    align-items: center;
+    margin-top: 60px;
+}
+form input{
+    width: 260px;
+    height: 30px;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+.logo{
+    width: 85%;
+
+}
+.text-icon{
+    width: 200px;
+}
+img{
+    width: 100%;
+    padding: 10px;
+}
+form input[type=submit]{
+    background-color: #4cb5f9;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+.yada{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: lightgray;
+    margin: 10px 0px;
+}
+.cizgi{
+    border: 1px solid lightgray;
+    width: 30%;
+    height: 0px;
+}
+.facebook-giris{
+    text-decoration: none;
+    color: #385185;
+    font-weight: 400px;
+}
+.forget{
+    text-decoration: none;
+    color: #00376b;
+    font-size: 10px;
+}
+.hesap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    padding: 35px;
+    margin-top: 10px;
+}
+.hesap a{
+    text-decoration: none;
+}
+.indir div{
+    display: flex;
+}
+.indir div img{
+    padding: 15px;
+    width: 150px;
+    height: 70px;
+}
+.indir{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
